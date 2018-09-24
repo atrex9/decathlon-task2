@@ -1,0 +1,85 @@
+* { font-family: 'Roboto Condensed', sans-serif; }
+*.icon, .icon { font-family: DecathlonCube; }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border-top: 0 none;
+}
+html, body { background: none; }
+
+.header { background: #0072b5; color: #fff; text-transform: uppercase; position: relative; padding: 20px 30px 30px 30px; }
+h1 { margin: 0px; color: #fff; font-size: 30px; font-style: italic; font-weight: 600; padding-right: 60px; }
+h1 small { font-size: 16px; color: #fff; font-weight: 600; margin-left: 4px; }
+.header .icon-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: block;
+	font-size: 20px;
+	cursor: pointer;
+}
+.swipe-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+}
+.note{
+    font-size: 12px;
+    text-transform: none;
+}
+.table-sizes { background: #e9e9e9; text-align: center; border: 1px solid #fff; margin: 0px; }
+
+th { background: #bababa; font-size: 16px; text-align: center; width: 25%; text-transform: uppercase; font-weight: bold; font-style: italic;  }
+td { font-size: 14px; text-align: center; width: 20%; text-transform: uppercase; font-weight: bold; }
+
+.hover { background: #c9e5f5; }
+th:hover { background: #393939; color: #fff; }
+td:hover { background: #0072b5; color: #fff; }
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, 
+.table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+
+.sec-head td { background: rgba(186,186,186,0.8); }
+.third-head td { background: rgba(186,186,186,0.6); }
+
+.sec-head td:hover { background: rgba(57,57,57,0.8); }
+.third-head td:hover { background: rgba(57,57,57,0.6); }
+
+.table-sizes th, .table-sizes td { border-left: 1px solid #fff; border-right: 1px solid #fff; }
+
+.toggle-group label.btn {
+    padding: 3px 6px;
+}
+
+.toggle-group label.btn.toggle-on {
+    padding-right: 24px;
+}
+.toggle-group label.btn.toggle-off {
+    padding-left: 24px;
+}
+
+.toggle-group label.btn.btn-primary, .toggle-group label.btn.btn-default {
+	background: #fff;
+	color: #0072b5;
+	border-color: #fff;
+	outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.swipe-btn .toggle.btn {
+	min-height: 28px;
+	border-radius: 15px;
+}
+
+.swipe-btn .toggle-handle {
+	border-radius: 15px;
+	background: #0072b5;
+}
+
+@media screen and (max-width: 400px) {
+	.header { padding: 18px 20px 25px 20px; }
+	h1 { font-size: 26px; }
+}
